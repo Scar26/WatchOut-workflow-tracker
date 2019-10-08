@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/Scar26/WatchOut-workflow-tracker#readme",
   "dependencies": {
+    "ejs": "^2.7.1",
     "express": "^4.17.1",
     "mongoose": "^5.7.3",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "socket.io": "^2.3.0"
   }
 }
