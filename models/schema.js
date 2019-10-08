@@ -5,7 +5,7 @@ var meetingSchema = new mongoose.Schema({
     description : String,
     date : Date,
     timing : String,
-    members : String
+    members : Array
 });
 
 var Meeting = mongoose.model("Meeting",meetingSchema);
